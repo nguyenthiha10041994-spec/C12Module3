@@ -1,0 +1,18 @@
+
+body{
+     font-family:Arial;
+}
+header,nav,section,article,aside,footer{
+    border:1px solid black;
+    padding:20px;
+    margin:5px;
+}
+.container{
+    display:flex;
+}
+.main{
+    width:70%;
+}
+aside{
+    width:30%;
+}

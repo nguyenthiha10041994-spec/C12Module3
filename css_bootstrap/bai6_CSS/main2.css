@@ -1,0 +1,34 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 40px;
+    color: black;
+}
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 1px solid #a2a9b1;
+    margin-bottom: 0.5px;
+}
+.mota{
+    color: steelblue;
+    font-size:20px;
+    margin-top: 1px;
+}
+.blue{
+    color:dodgerblue;
+}
+a{
+    color:blue;
+    text-decoration: none;
+}
+p:not(.mota){
+    text-indent: 30px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}

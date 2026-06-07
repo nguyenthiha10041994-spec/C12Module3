@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #1877f2;
+    color: white;
+    padding: 15px;
+}
+.container {
+    display: flex;
+    margin-top: 70px;
+}
+.left {
+    width: 20%;
+    background: #f0f2f5;
+    padding: 20px;
+}
+main {
+    width: 60%;
+    padding: 20px;
+}
+.right {
+    width: 20%;
+    background: #f0f2f5;
+    padding: 20px;
+}
+.post {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}

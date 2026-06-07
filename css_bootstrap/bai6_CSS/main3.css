@@ -1,0 +1,15 @@
+.anh {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.container {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    background-color: #fff;
+}
