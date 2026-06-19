@@ -14,7 +14,10 @@ select ma_dich_vu from hop_dong
 where year(ngay_lam_hop_dong)=2021 and month(ngay_lam_hop_dong) in (1,2,3)
 );
 
--- Câu7; Dịch vụ được đặt năm 2020 nhưng không được đặt năm 2021
+-- 7.Hiển thị thông tin ma_dich_vu, ten_dich_vu, dien_tich, so_nguoi_toi_da, chi_phi_thue,
+--  ten_loai_dich_vu của tất cả các loại dịch vụ đã từng được khách hàng 
+-- đặt phòng trong năm 2020 nhưng chưa từng được khách hàng đặt phòng trong năm 2021.
+
 select distinct
        dv.ma_dich_vu,
        dv.ten_dich_vu,
